@@ -9,7 +9,7 @@ A simple GUI is available, so little to no programming knowledge is required to 
 2. open console:
 ```python mmlp.py```
 
-NOTE: works on windows, to use on ubuntu(etc.) toggle line comment for "mmlp.ico" 
+NOTE: works on windows, to use on ubuntu(etc.) toggle line comment for use of "mmlp.ico" 
 ## Features  
 Features implemented so far:
 * loading/saving data (data, weights, label)

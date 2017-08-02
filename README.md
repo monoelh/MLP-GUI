@@ -25,11 +25,11 @@ Features implemented so far:
   * free choice for number of nodes in each layer
   * classification and regression
 * full hyper-parameter control:
-  * Error-/Lossfunciton
+  * Error-/Lossfunciton  
     quadratic  
     pseudo huber loss  
     binary cross entropy  
-  * Activation function (out layer activation) / Transfer function (activation for all units except the out layer)
+  * Activation function (out layer activation) / Transfer function (activation for all units except the out layer)  
     tanh  
     atan  
     logistic  
@@ -38,8 +38,8 @@ Features implemented so far:
     bent identity  
     binary  
     stochastic  
-  * Gradient descent optimizer
-    vanilla gradient descent
+  * Gradient descent optimizer  
+    vanilla gradient descent  
     Adam / RMSprop  
     SGD (minibatch)  
     learning rate  

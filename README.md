@@ -37,4 +37,6 @@ Features implemented so far:
 * Autoencoder 
   * saves autoencoded data and weights  
   
-![title](GUI_mmlp.PNG)
+![title1](GUI_mmlp.PNG)  
+![title2](loss_plot.png)
+![title3](2d_plot.png)

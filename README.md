@@ -35,4 +35,6 @@ Features implemented so far:
 * PCA
   * to reduces the input dimensions
 * Autoencoder 
-  * saves autoencoded data and weights
+  * saves autoencoded data and weights  
+  
+![title](GUI_mmlp.PNG)

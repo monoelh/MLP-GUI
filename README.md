@@ -54,3 +54,5 @@ Features implemented so far:
 ![title1](GUI_mmlp.PNG)  
 ![title2](loss_plot.png)
 ![title3](2d_plot.png)
+## Visualized training process
+!video->[Video](2D_dream.mp4)

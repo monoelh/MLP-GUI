@@ -1,5 +1,5 @@
-# MMLP v0.31
-MMLP is manually coded multilayer perceptron / neural network using only numpy.  
+# static MLP GUI v0.31
+MLP-GUI is manually coded multilayer perceptron / neural network using only numpy. The approach is function based. For a dynamic class based MLP implementation, checkout my MML repo - an improved approach for deeper access to the model.
   
 Mainly initiated for learning python(3) and the math behind some mechanics used in neural networks, the project grow to a useful tool for simple classification/regression tasks and getting an intuition about the effects of hyperparameter choice.
 

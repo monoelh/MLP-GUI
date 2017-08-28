@@ -1543,8 +1543,8 @@ PLOT:\n\
 DREAM creates an animation over the iterations \n\
  - fps    : well...fps\n\
  - error bar: adds error bar to dream output" 
-app=gui("MMLP", "850x700" )#, "450x700" 
-app.setTitle("MMLP v0.31")
+app=gui("MLP-GUI", "850x700" )#, "450x700" 
+app.setTitle("MLP-GUI v0.31")
 app.setGuiPadding(4,4)
 app.setIcon("mmlp.ico")
 app.setBg("black")

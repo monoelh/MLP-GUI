@@ -1054,9 +1054,12 @@ def press(btn):
             TESTDAT = TESTDAT - TESTDAT.mean(0)
             C = (1./TRAINDAT.shape[0]) * np.dot(TRAINDAT.T,TRAINDAT)
             eW,eV = np.linalg.eig(C)
-            ind = (np.argsort(eW))[::-1]
-            eW = eW[ind].real 
-            eV = eV[ind].real
+            
+            #### found out this sorting is messing the PCs somehow hwile playing with EEG data. not sure why, but therefore commented
+            #ind = (np.argsort(eW))[::-1]
+            #eW = eW[ind].real 
+            #eV = eV[ind].real
+            
             ax = plt.figure()
             a = ax.add_subplot(111)
             #plt.bar(range(eW.shape[0]-1),eW[1:]/np.linalg.norm(eW[1:]),0.3)
